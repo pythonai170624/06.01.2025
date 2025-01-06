@@ -1,4 +1,3 @@
-
 class Person:
     def __init__(self, fname, lname):
         self.fname = fname
@@ -15,8 +14,6 @@ class Person:
 
     def __repr__(self):
         return f"Person('{self.fname}', '{self.lname}')"
-
-
 
 danny = Person('dany', 'shovevani')
 moshe = Person('moshe', 'ufnik')
